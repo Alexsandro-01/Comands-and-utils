@@ -1,3 +1,3 @@
 # Comands-and-utils
 
-Repositório criaado para guardar comandos, tutoriais e códigos úteis.
+Repositório criado para guardar comandos, tutoriais e códigos úteis.
