@@ -1,4 +1,5 @@
-Instalação do Docker
+# Instalação do Docker
+
 O primeiro passo para utilizar o Docker é realizar a sua instalação. Isso nos dará acesso à sua interface de linha de comando (CLI).
 
 Curiosidade: o Docker é feito de três grandes programas: Docker Daemon, a API e o CLI. Neste conteúdo, vamos instalar os três de uma vez só, entretanto vamos interagir com o Docker apenas por meio da sua interface de linha de comando.
@@ -117,5 +118,10 @@ O terminal deve retornar uma mensagem com dicas, conforme a seguir:
 Mostrando um Olá do Docker no terminal
 Mostrando um Olá do Docker no terminal
 Quando executamos o comando docker run hello-world, estamos pedindo que ele busque em seu repositório oficial uma imagem chamada hello-world. Essa imagem é um exemplo simples de um container, que no final nos retorna uma mensagem de texto. Falaremos mais sobre isso adiante!
+    
+ **Note**: Caso algum erro de permissão, usar o comando
+    ```bash
+        sudo chmod 666 /var/run/docker.sock
+    ```
 
 Pronto, temos o Docker instalado para utilizarmos! 🐋
